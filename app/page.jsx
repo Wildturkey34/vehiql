@@ -152,10 +152,11 @@ export default async function Home() {
           <Link href="/cars">View All Cars</Link> 
         </Button>
         <SignedOut>
-          <Button size="lg" asChild>
-            <Link href="/sign-up">Sign Up Now</Link>
-          </Button>
-        </SignedOut>
+  <div className="bg-red-500 p-4">You are signed out</div>
+  <Button size="lg" asChild>
+    <Link href="/sign-up">Sign Up Now</Link>
+  </Button>
+</SignedOut>
         </div>
 
       </section>
